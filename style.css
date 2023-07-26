@@ -1,0 +1,15 @@
+.logo {
+    height: 95px;
+}
+
+.carousel-item {
+    height: 75vh;
+}
+
+.cardRecette{
+    justify-content: space-evenly;
+}
+
+.pied {
+    background-color: #a3c962;
+}
