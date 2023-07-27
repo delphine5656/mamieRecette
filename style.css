@@ -8,6 +8,9 @@
 
 .cardRecette{
     justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
 }
 
 .pied {

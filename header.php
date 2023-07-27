@@ -1,6 +1,7 @@
 <?php
 require_once "lib/config.php";
 require_once  "lib/recipe.php";
+$pdo = new PDO('mysql:dbname=mamie_recette;host=localhost;charset=utf8mb4', 'root', '');
 ?>
 
 <!doctype html>
