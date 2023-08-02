@@ -2,7 +2,7 @@
 
 
 <div class="card" style="width: 18rem; margin-left: 1rem;">
-                <img src="<?php echo _RECIPES_IMG_PATH_.$recipe["image"]; ?>" class="card-img-top" alt="...">
+                <img src="<?php echo getRecipeImage($recipe['image']);; ?>" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title"><?php echo $recipe["title"]; ?></h5>
                     <p class="card-text"><?php echo $recipe["description"]; ?></p>

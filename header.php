@@ -18,7 +18,7 @@ $pdo = new PDO('mysql:dbname=mamie_recette;host=localhost;charset=utf8mb4', 'roo
 <body>
 <div class="container">
     <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-        <div class="col-md-3 mb-2 mb-md-0">
+        <div>
             <a href="index.php" class="d-inline-flex link-body-emphasis text-decoration-none">
                 <img src="asset/images/recette-de-rougail-de-tomates-au-piment.jpg" class="logo" alt="logo du site">
             </a>
@@ -27,6 +27,7 @@ $pdo = new PDO('mysql:dbname=mamie_recette;host=localhost;charset=utf8mb4', 'roo
         <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
             <li><a href="index.php" class="nav-link px-2 link-secondary">Accueil</a></li>
             <li><a href="recette.php" class="nav-link px-2">Nos recettes</a></li>
+            <li><a href="ajout_modification_recette.php" class="nav-link px-2">Ajouter ou modifier une recette</a></li>
             <li><a href="apropos.php" class="nav-link px-2">A propos</a></li>
             <li><a href="faq.php" class="nav-link px-2">FAQs</a></li>
             <li><a href="#" class="nav-link px-2">Nous contacter</a></li>

@@ -1,6 +1,7 @@
 <?php
 require "header.php";
 
+$recipies = getRecipes($pdo, _HOME_RECIPES_LIMIT_);
 ?>
 
 <section>
